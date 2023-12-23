@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goAT</title>
+    <!-- External CSS -->
+    <link href="CSS/Day3.css" rel="stylesheet" />
+    <!-- internal CSS -->
+    <style>
+      /* Element Selector */
+      p {
+        color: purple;
+      }
+      /* Id Selector */
+      #ptag1 {
+        font-size: 70px;
+      }
+      .ptag2 {
+        color: red;
+      }
+      /*  Pseudo Class*/
+      .ptag2:hover {
+        color: navy;
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+        font-size: 50px;
+        text-transform: uppercase;
+      }
+      /* Pseudo Element */
+      .ptag2::last-line {
+        font-size: 50px;
+      }
+      .ptag2::first-line {
+        color: blueviolet;
+      }
+      #bg1 {
+        /* background-color: aqua; */
+        width: 50vw;
+        height: 20vh;
+        background-color: bisque;
+
+        overflow: scroll;
+      }
+      #bg1 p {
+        font-size: 50px;
+        background-image: url("img/headphones-tree-leaf_23-2148149511.avif");
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: top right;
+        font-style: italic;
+        /* font-weight: bolder width= "200"; */
+      }
+      .bg1:hover {
+        color: aquamarine;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- Inline CSS -->
+      <p style="font-size: 40px">Welcome to the goAt</p>
+
+      <p id="ptag1">This is goAt 2.0</p>
+      <p class="ptag2">New Unique Sounds</p>
+      <p class="ptag2">This is a new web site</p>
+      <p class="ptag2">
+        Looking for a wireless headphone that combines performance and style
+        flawlessly and is both fashionable and practical? Look no further than
+        the stunning goAt Rockerz 551 ANC Bluetooth Headset with Mic! These
+        wireless headphones have Active sound Cancellation, which effectively
+        filters out background sounds.
+      </p>
+      <div id="bg1">
+        <p>
+          Looking for a wireless headphone that combines performance and style
+          flawlessly and is both fashionable and practical? Look no further than
+          the stunning boAt Rockerz 551 ANC Bluetooth Headset with Mic! These
+          wireless headphones have Active sound Cancellation, which effectively
+          filters out background sounds.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
