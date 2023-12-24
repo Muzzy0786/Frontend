@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>goAt 2.0</title>
+    <style>
+      #p1 {
+        background-color: bisque;
+        width: 100vw;
+        height: 10vh;
+        /* for space between content but,content start from initial */
+        justify-content: space-between;
+        gap: 10px;
+  
+        /* for content rightside */
+        display: flex;
+
+        /* display: none; */
+        /* visibility: hidden; */
+      }
+      #p2 {
+        width: 400px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-top: 10px;
+
+        /* background-color: purple; */
+      }
+      #p2:hover {
+        font-style: italic;
+        color: blue;
+      }
+      #p3 {
+        width: 400px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        /* padding-left: 10px; */
+        padding-top: 10px;
+        padding-right: 20px;
+
+        /* background-color: purple; */
+      }
+      #p3:hover {
+        font-family: sans-serif;
+        font-style: italic;
+        color: brown;
+      }
+      #p4 {
+        display: grid;
+        grid-template-columns: 200px 200px 100px;
+        grid-template-rows: 200px 200px;
+        background-color: beige;
+        column-gap: 55px;
+        margin: 25px;
+        padding: 25px;
+        border-radius: 25px;
+        border-left: 5px solid royalblue;
+        border-top: 5px solid pink;
+        border-right: 5px solid red;
+        border-bottom: 5px solid yellow;
+        transition: 3s;
+        transition-delay: 1s;
+      }
+      #p4:hover {
+        background-color: aquamarine;
+      }
+      input {
+        
+        margin-top: 10px;
+      }
+      select {
+        height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="p1">
+      <div id="p2">
+        <span>Home</span>
+        <select>
+          <option>Categories</option>
+          <option>On-ear-headphones</option>
+          <option>Off-ear-headphones</option>
+        </select>
+        <a href="Day3.html" target="_blank">About</a>
+      </div>
+      <div>
+        <input placeholder="search" />
+      </div>
+
+      <div id="p3">
+        <span>Daily deals</span>
+        <select>
+          <option>Products Lists</option>
+          <option>Earphones</option>
+          <option>Speakers</option>
+          <option>Smartwatches</option>
+        </select>
+        <a href="#">Gift with goAt</a>
+      </div>
+    </div>
+    <p><em><strong>Have a Nice day....😇</em></strong></p>
+    <div id="p4">
+      <p>Wired headphones</p>
+      <p>Wireless headphones</p>
+      <p>Party speakers</p>
+      <p>Bluetooth speakers</p>
+      <p>Car accessories</p>
+      <p>Neckbands</p>
+    </div>
+  </body>
+</html>
+
