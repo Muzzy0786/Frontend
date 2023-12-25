@@ -1,0 +1,140 @@
+.header1 {
+  background-color: purple;
+  display: flex;
+  width: 100vw;
+  height: 8vh;
+  gap: 10px;
+  justify-content: space-between;
+  transition: 3s;
+  transition-delay: 1s;
+  margin-right: 100px;
+}
+.header1:hover {
+  background-color: blueviolet;
+}
+.header2 {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+}
+.header3 {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.hover1:hover {
+  color: whitesmoke;
+}
+
+input {
+  background-color: blueviolet;
+  height: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+input:hover {
+  background-color: aqua;
+  color: black;
+}
+.header4 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.header5 {
+  width: 20vw;
+  height: 90vh;
+  overflow: scroll;
+  background-color: purple;
+  margin: 20px;
+  padding: 20px;
+  transition: 3s;
+  transition-delay: 1s;
+}
+
+.hover2:hover {
+  color: whitesmoke;
+  border-radius: 5px;
+  font-style: italic;
+  background-color: blueviolet;
+}
+.header6 {
+  width: 750px;
+  font-size: large;
+}
+
+.subhead1 {
+  font-size: 40px;
+  font-weight: 1000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  z-index: 2;
+}
+.subcontent1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  z-index: 2;
+}
+.hover4 {
+  display: none;
+  position: relative;
+  top: -250px;
+  left: 150px;
+}
+.hover3:hover + .hover4 {
+  color: red;
+  display: block;
+}
+.hover5 {
+  font-size: larger;
+  font-style: italic;
+}
+.hover5:hover {
+  color: purple;
+}
+video {
+  width: 710px;
+}
+.header7 {
+  display: grid;
+  grid-template-rows: 150px 120px;
+  row-gap: 50px;
+  margin-left: 200px;
+  margin-right: 100px;
+  padding: 20px;
+  transition: 3s;
+  transition-delay: 1s;
+  width: 20vw;
+
+  border: 2px solid mediumaquamarine;
+}
+.header7:hover {
+  background-color: blueviolet;
+}
+.subhead2 {
+  font-size: large;
+  text-decoration: underline;
+}
+.subcontent1 {
+  line-height: 2;
+}
+.hover6:active {
+  color: blue;
+}
+
+.marginadj1 {
+  margin-left: 25px;
+}
+.marginadj2 {
+  margin-top: 30px;
+}
+.head1:hover {
+  text-decoration: underline;
+}
