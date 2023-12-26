@@ -1,0 +1,88 @@
+#h1 {
+  background-color: aqua;
+  width: 30vw;
+  height: 20vh;
+  transform: translateX(300px);
+}
+#h2 {
+  background-color: blueviolet;
+  width: 30vw;
+  height: 25vh;
+  transform: rotate(90deg);
+}
+#h3 {
+  background-color: lightgreen;
+  width: 30vw;
+  height: 20vh;
+  transform: translate(300px, 100px);
+  transition: 3s;
+}
+#h1:hover {
+  transform: scale(150%) !important;
+  transform: rotate(60deg);
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+#h2:hover {
+  transform: skew(10deg);
+  cursor: pointer;
+}
+#main {
+  background-color: blue;
+  width: 50vw;
+  height: 100vh;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    background-color: red;
+    transform: translate(100px, 100px);
+  }
+  50% {
+    background-color: green;
+    transform: skew(30deg);
+    border-radius: 100%;
+  }
+  100% {
+    background-color: black;
+    transform: rotate(30deg);
+    transform: translateX(700px);
+  }
+}
+.p1 {
+  animation-name: p1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes p1 {
+  0% {
+    color: yellow;
+  }
+  50% {
+    color: magenta;
+  }
+  100% {
+    color: brown;
+  }
+}
+
+#h1 {
+  animation-name: h1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes h1 {
+  0% {
+    background-color: brown;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: magenta;
+  }
+}
